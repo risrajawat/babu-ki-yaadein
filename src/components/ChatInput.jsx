@@ -22,7 +22,7 @@ const ChatInput = ({ onSend }) => {
         onChange={e => setText(e.target.value)}
         onKeyDown={handleKeyDown}
         className="flex-1 p-3 rounded-full bg-white/10 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-pink-400 text-sm"
-        placeholder="Message Anjali..."
+        placeholder="Message Pyaru..."
       />
       <button
         onClick={handleSend}
